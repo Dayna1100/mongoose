@@ -1,0 +1,29 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint **/*.js"
+  },
+  "author": "Mark Scott",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.4",
+    "express": "^4.18.2",
+    "mongoose": "^5.13.20",
+    "morgan": "^1.9.1",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.16.1"
+  }
+}
